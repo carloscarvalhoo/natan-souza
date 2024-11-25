@@ -5,12 +5,12 @@ import facebook from 'assets/icons/facebook.svg'
 function MapSection() {
   return (
     <div className='w-full transition duration-1000 hover:opacity-90'>
-      {/* <iframe
+      <iframe
         src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3637.599844455655!2d-51.67325754332197!3d-24.25577059078434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ec15faced2d41b%3A0x6ff8b6edfc5f8b0c!2sR.%20Profa.%20Diva%20Proen%C3%A7a%2C%201190%20-%20Ivaipor%C3%A3%2C%20PR%2C%2086870-000!5e0!3m2!1sen!2sbr!4v1732476593203!5m2!1sen!2sbr'
         loading='lazy'
         title='Google Maps'
         className='h-[50svh] w-full grayscale'
-      ></iframe> */}
+      ></iframe>
     </div>
   )
 }
