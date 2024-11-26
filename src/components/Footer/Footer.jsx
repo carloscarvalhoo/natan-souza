@@ -47,7 +47,7 @@ function ContactsSection() {
             rel="noopener noreferrer"
             className="transition-colors duration-500 hover:text-golden"
           >
-            Rua Diva Proença 1190, Centro - <br /> Ivaiporã, PR, 86870-000
+            Rua Diva Proença 1190, Centro - Ivaiporã, PR, 86870-000
           </a>
         </li>
       </ul>
