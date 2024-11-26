@@ -32,7 +32,7 @@ function HeroSection() {
           href="#contatos"
           className="animate-scale-in bg-white p-3 text-lg font-medium text-dark shadow-lg transition-opacity duration-500 hover:opacity-75 md:px-8 md:py-4"
         >
-          Agende uma Consultoria
+          Agende uma Consulta
         </a>
       </div>
     </section>
