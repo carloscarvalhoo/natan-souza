@@ -30,20 +30,20 @@ module.exports = {
           '100%': { transform: 'translateY(50%)', opacity: 0 },
         },
         'slide-left': {
-          '0%': { transform: 'translateX(50%)', opacity: 0 },
+          '0%': { transform: 'translateX(25%)', opacity: 0 },
           '100%': { transform: 'translateX(0)', opacity: 1 },
         },
         'slide-right': {
-          '0%': { transform: 'translateX(-50%)', opacity: 0 },
+          '0%': { transform: 'translateX(-25%)', opacity: 0 },
           '100%': { transform: 'translateX(0)', opacity: 1 },
         },
         'scale-up': {
-          '0%': { transform: 'scale(0.5)', opacity: 0.25 },
+          '0%': { transform: 'scale(0.75)', opacity: 0.25 },
           '100%': { transform: 'scale(1)', opacity: 1 },
         },
         'scale-out': {
           '0%': { transform: 'scale(1)', opacity: 1 },
-          '100%': { transform: 'scale(0.5])', opacity: 0 },
+          '100%': { transform: 'scale(0.75])', opacity: 0 },
         },
       },
       animation: {

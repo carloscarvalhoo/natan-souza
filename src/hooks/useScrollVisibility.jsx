@@ -1,27 +1,30 @@
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect, useRef } from "react";
 
 function useScrollVisibility() {
-  const [isVisible, setIsVisible] = useState(false)
-  const sectionRef = useRef(null)
+  const [isVisible, setIsVisible] = useState(false);
+  const sectionRef = useRef(null);
 
   useEffect(() => {
     const handleScroll = () => {
-      const currentScroll = window.scrollY
-      const sectionOffset = sectionRef.current.offsetTop
-      const sectionHeight = sectionRef.current.offsetHeight
+      const currentScroll = window.scrollY;
+      const sectionOffset = sectionRef.current.offsetTop;
+      const sectionHeight = sectionRef.current.offsetHeight;
 
-      if (currentScroll > sectionOffset + sectionHeight * 0.1 - window.innerHeight) {
-        setIsVisible(true)
+      if (
+        currentScroll >
+        sectionOffset + sectionHeight * 0.1 - window.innerHeight
+      ) {
+        setIsVisible(true);
       } else {
-        setIsVisible(false)
+        setIsVisible(false);
       }
-    }
+    };
 
-    window.addEventListener('scroll', handleScroll)
-    return () => window.removeEventListener('scroll', handleScroll)
-  }, [])
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
-  return [isVisible, sectionRef]
+  return [isVisible, sectionRef];
 }
 
-export default useScrollVisibility
+export default useScrollVisibility;
