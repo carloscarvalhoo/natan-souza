@@ -23,7 +23,8 @@ const AboutUs = () => {
           </h2>
         </header>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full">
+        {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full"> */}
+        <div className="grid grid-cols-1 gap-8 w-full">
           {/* Texto descritivo e informativo */}
           <div className="flex flex-col gap-4">
             <p className="text-justify text-lg text-dark md:text-xl">
@@ -81,9 +82,9 @@ const AboutUs = () => {
             </p>
           </div>
 
-          <picture>
+          {/* <picture>
             <img src="" alt="" />
-          </picture>
+          </picture> */}
         </div>
 
         {/* Chamada para Ação (CTA) */}
