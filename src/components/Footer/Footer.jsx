@@ -22,7 +22,7 @@ function ContactsSection() {
       <ul className="flex flex-col gap-2 md:text-xl">
         <li>
           <a
-            href="https://api.whatsapp.com/send?phone=5543999228811&text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20consultoria"
+            href="https://api.whatsapp.com/send?phone=5543999228811&text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta."
             target="_blank"
             rel="noopener noreferrer"
             className="transition-colors duration-500 hover:text-golden"
@@ -62,8 +62,8 @@ function OfficeSection() {
       <ul className="flex flex-col gap-2 md:text-xl">
         <li>
           <p>
-            Entre em contato conosco e descubra como podemos ajudar a proteger
-            seus interesses e garantir seu sucesso.
+            Entre em contato e descubra como é possível lhe ajudar a proteger
+            seus interesses e garantir o êxito.
           </p>
         </li>
         <li>

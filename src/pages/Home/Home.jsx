@@ -36,14 +36,14 @@ function Home() {
       <Highlight
         title="Justiça é nosso maior sucesso."
         subtitle="Compreendemos a necessidade de cada cliente, seja ele pessoa física ou jurídica, e, deste modo, entregamos serviços eficazes."
-        buttonText="Agende uma Consultoria"
+        buttonText="Agende uma Consulta"
       />
 
       <OurServices />
 
       <Highlight
         title="Sua confiança é nossa prioridade."
-        subtitle="Nosso compromisso é garantir transparência, ética e soluções jurídicas que atendam suas necessidades."
+        subtitle="Nosso compromisso é garantir transparência, ética, e oferecer soluções jurídicas"
         buttonText="Saiba Mais"
       />
 

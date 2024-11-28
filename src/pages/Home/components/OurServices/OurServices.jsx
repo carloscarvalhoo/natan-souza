@@ -7,7 +7,7 @@ function OurServices() {
     {
       name: "Direito Trabalhista",
       description:
-        "Oferecemos suporte jurídico para proteger seus direitos e promover relações de trabalho justas e equilibradas.",
+        "Suporte jurídico para proteger seus direitos e promover relações de trabalho justas e equilibradas.",
       icon: "work", // Ícone de maleta
       message:
         "Olá, estou interessado em uma consultoria sobre Direito Trabalhista.",
@@ -15,7 +15,7 @@ function OurServices() {
     {
       name: "Direito de Família e Sucessões",
       description:
-        "Apoiamos você em questões familiares e sucessórias, garantindo soluções eficientes e um planejamento adequado às suas necessidades.",
+        "Questões familiares e sucessórias, garantindo soluções eficientes e um planejamento adequado às suas necessidades.",
       icon: "gavel", // Ícone de martelo jurídico
       message:
         "Olá, gostaria de saber mais sobre Direito de Família e Sucessões.",
@@ -23,7 +23,7 @@ function OurServices() {
     {
       name: "Direito Previdenciário",
       description:
-        "Auxiliamos na obtenção de benefícios previdenciários e asseguramos seus direitos em processos administrativos e judiciais.",
+        "Obtenção de benefícios previdenciários e assegurando seus direitos em processos administrativos e judiciais.",
       icon: "account_balance_wallet", // Ícone de carteira
       message: "Olá, preciso de auxílio relacionado ao Direito Previdenciário.",
     },
@@ -49,7 +49,7 @@ function OurServices() {
             Áreas de atuação
           </h2>
           <p className="text-base md:text-xl">
-            Nosso escritório oferece soluções jurídicas planejadas e
+            O escritório..... oferece soluções jurídicas planejadas e
             personalizadas para atender às suas necessidades com rapidez e
             eficiência.
           </p>
@@ -91,7 +91,7 @@ function OurServices() {
             href="#contatos"
             className="inline-block bg-dark p-3 text-lg font-medium text-white shadow-lg transition-opacity duration-500 hover:opacity-75 md:px-8 md:py-4"
           >
-            Agende uma Consultoria
+            Agende uma Consulta
           </a>
         </button>
       </div>

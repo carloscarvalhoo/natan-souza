@@ -10,7 +10,6 @@ const AboutUs = () => {
       ref={sectionRef}
       className="flex min-h-screen w-full items-center justify-center bg-white"
     >
-      {/* Contêiner principal para centralizar o conteúdo */}
       <div
         className={`my-8 flex w-11/12 flex-col gap-12 transition-all duration-1000 md:w-9/12 ${
           isVisible ? "animate-slide-right" : "animate-scale-out"
@@ -19,74 +18,72 @@ const AboutUs = () => {
         {/* Título da seção */}
         <header>
           <h2 className="text-4xl font-bold uppercase text-dark md:text-5xl">
-            Prazer, sou Dr. Natan Souza
+            Prazer, sou Dr. Natan Souza e ofereço atendimento pessoal &
+            personalizado
           </h2>
         </header>
 
-        {/* Texto descritivo e informativo */}
-        <div className="flex flex-col items-center justify-center gap-6">
-          <p className="text-justify text-lg text-dark md:text-xl">
-            Olá, sou <strong>Dr. Natan Souza</strong>, advogado com ampla
-            experiência no mundo jurídico. Minha trajetória é pautada em
-            oferecer soluções jurídicas personalizadas, baseadas em honestidade,
-            confiança e transparência.
-          </p>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full">
+          {/* Texto descritivo e informativo */}
+          <div className="flex flex-col gap-4">
+            <p className="text-justify text-lg text-dark md:text-xl">
+              Olá, sou <strong>Dr. Natan Souza</strong>, advogado com ampla
+              experiência no mundo jurídico. Minha trajetória é pautada em
+              oferecer soluções jurídicas personalizadas, baseadas em
+              honestidade, confiança e transparência.
+            </p>
 
-          <p className="text-justify text-lg text-dark md:text-xl">
-            Minha atuação se concentra nas áreas de{" "}
-            <strong>
-              Direito de Família e Sucessões, Previdenciário e Trabalhista
-            </strong>
-            . Meu compromisso é proteger os interesses dos meus clientes com
-            estratégias eficazes e um atendimento humanizado.
-          </p>
+            <p className="text-justify text-lg text-dark md:text-xl">
+              Minha atuação se concentra nas áreas de:
+            </p>
 
-          <p className="text-justify text-lg text-dark md:text-xl">
-            Meu escritório está localizado na{" "}
-            <a
-              href="https://maps.app.goo.gl/1hXCQwUpzjPcCgZ89"
-              target="_blank"
-              className="font-bold hover:underline"
-              rel="noopener noreferrer"
-            >
-              Rua Diva Proença 1190, Centro
-            </a>
-            . Aqui, você encontrará uma equipe qualificada e pronta para
-            oferecer suporte jurídico especializado, seja na recuperação de
-            ativos empresariais ou na resolução de questões familiares.
-          </p>
+            <ul className="list-disc ml-8 text-lg text-dark md:text-xl">
+              <li>
+                <strong>Direito de Família e Sucessões</strong>
+              </li>
+              <li>
+                <strong>Direito Previdenciário</strong>
+              </li>
+              <li>
+                <strong>Direito Trabalhista</strong>
+              </li>
+            </ul>
 
-          <p className="text-justify text-lg text-dark md:text-xl">
-            Entre em contato pelo telefone{" "}
-            <a
-              href="https://api.whatsapp.com/send?phone=5543999228811&text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20consultoria"
-              target="_blank"
-              className="font-bold hover:underline"
-              rel="noopener noreferrer"
-            >
-              (43) 99922-8811
-            </a>{" "}
-            ou pelo e-mail
-            <a
-              href="mailto:natansouzaadv@gmail.com"
-              target="_blank"
-              className="font-bold hover:underline"
-              rel="noopener noreferrer"
-            >
-              {" "}
-              natansouzaadv@gmail.com
-            </a>
-            . Será um prazer conhecer suas necessidades jurídicas e buscar a
-            melhor solução para o seu caso.
-          </p>
+            <p className="text-justify text-lg text-dark md:text-xl">
+              Meu compromisso..... é proteger os interesses dos meus clientes
+              com estratégias eficazes e um atendimento humanizado.
+            </p>
 
-          <p className="text-justify text-lg text-dark md:text-xl">
-            Meus valores profissionais incluem <strong>honestidade</strong>,{" "}
-            <strong>confiança</strong>, <strong>empenho</strong>,{" "}
-            <strong>transparência</strong> e <strong>dedicação</strong>. São
-            princípios que norteiam minha atuação para garantir um serviço
-            jurídico de excelência.
-          </p>
+            <p className="text-justify text-lg text-dark md:text-xl">
+              Meu escritório…… aqui, você encontrará um profissional qualificado
+              e pronto para lhe oferecer um suporte jurídico especializado.
+            </p>
+
+            <p className="text-justify text-lg text-dark md:text-xl">
+              Meus valores profissionais incluem:
+            </p>
+
+            <ul className="list-disc ml-8 text-lg text-dark md:text-xl">
+              <li>
+                <strong>honestidade</strong>
+              </li>
+              <li>
+                <strong>empenho</strong>
+              </li>
+              <li>
+                <strong>transparência e dedicação</strong>
+              </li>
+            </ul>
+
+            <p className="text-justify text-lg text-dark md:text-xl">
+              São princípios que norteiam minha atuação para garantir um serviço
+              jurídico de excelência.
+            </p>
+          </div>
+
+          <picture>
+            <img src="" alt="" />
+          </picture>
         </div>
 
         {/* Chamada para Ação (CTA) */}

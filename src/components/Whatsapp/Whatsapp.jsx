@@ -3,7 +3,7 @@ import whatsapp from "assets/icons/whatsapp.svg";
 
 const data = {
   number: "5543999228811",
-  message: "Olá, gostaria de agendar uma consultoria",
+  message: "Olá, vim pelo site e gostaria de agendar uma consulta.",
 };
 
 function Whatsapp() {
